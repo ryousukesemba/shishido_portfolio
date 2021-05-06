@@ -1,0 +1,45 @@
+.AboutSection{
+    display: flex;
+    justify-content: center;
+
+    color: #fff;
+}
+.AboutSection_Inner{
+    border-top: 1px solid #fff;
+    max-width: 1080px;
+    width: 100%;
+
+    display: flex;
+}
+.AboutSection_Left{
+    width: 100%;
+    max-width: 280px;
+    padding-right: 40px;
+}
+.AboutSection_Left h2{
+    letter-spacing: 0.5rem;
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    color: #C9C9C9;
+    margin-top: 30px;
+
+    position: sticky;
+    top: 30px;
+
+}
+
+.AboutSection_Right{
+    width: 100%;
+}
+.AboutSection_Text{
+    font-size: 13px;
+    line-height: 2.5;
+    color: #C9C9C9;
+    margin-top: 30px;
+}
+
+.box{
+    width: 100%;
+    height: 1000px;
+}
